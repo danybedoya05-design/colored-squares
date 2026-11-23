@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#squarearea {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#squarearea div {
+    position: absolute;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
